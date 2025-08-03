@@ -1,0 +1,198 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    color: whitesmoke;
+}
+
+.home-page {
+    background-color: rgb(25, 25, 25);
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.home-page-form-parent {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.home-page-form {
+    background-color: rgb(20, 20, 20);
+    width: fit-content;
+    padding: 15px 20px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-weight: 500;
+    font-size: 1.1em;
+}
+
+.home-page-form img {
+    scale: 0.8;
+}
+
+.home-page-form input {
+    outline: none;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    color: black;
+    font-weight: 500;
+}
+
+.home-page-form-text {
+    font-size: 1em;
+    padding: 6px 0px;
+}
+
+.home-page-new-room {
+    font-size: 0.9em;
+    padding: 5px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 5px;
+}
+
+.home-page-new-room span {
+    text-decoration: underline;
+    color: rgb(183, 183, 255);
+    cursor: pointer;
+}
+
+.home-page-new-room span:hover{
+    color: rgb(130, 130, 255);
+}
+
+.home-page-text {
+    font-size: 1.1em;
+    padding: 20px 0px 20px 0px;
+    max-width: 75%;
+    text-align: center;
+}
+
+.home-page-form button {
+    background-color: rgb(70, 236, 70);
+    padding: 10px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    color: black;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.1s ease-in;
+}
+
+.home-page-form button:hover{
+    background-color: rgb(0, 219, 0);
+    color: whitesmoke;
+}
+
+.editor-page{
+    display: flex;
+    overflow: hidden;
+}
+
+.editor-menu{
+    background-color: rgb(12, 12, 12);
+    height: 100vh;
+    width: 20vw;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.copy-room-id{
+    padding: 10px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    background-color: rgb(57, 220, 57);
+    color: whitesmoke;
+    font-size: 0.9em;
+    transition: all 0.1s linear;
+    cursor: pointer;
+}
+
+.copy-room-id:active{
+    scale: 0.95;
+}
+
+.leave-but{
+    padding: 10px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    background-color: rgb(235, 51, 51);
+    color: whitesmoke;
+    font-size: 0.9em;
+    transition: all 0.1s linear;
+    cursor: pointer;
+}
+
+.participants-conatiner{
+    height: 85%;
+    padding: 10px;
+}
+
+.participants-conatiner p{
+    padding: 30px 0px 10px 0px;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.avatar-bubble {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  color: white;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(255, 183, 67);
+}
+
+.participants-list{
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.typing-indicator {
+  font-style: italic;
+  color: #15d655;
+  margin-top: 5px;
+}
+
+.editor-output{
+    display: flex;
+    flex-direction: column;
+}
+
+.output-box{
+    display: flex;
+    flex-direction: column;
+    height: 30vh;
+}
+
+.run-button{
+    outline: none;
+    background-color: rgb(73, 73, 73);
+    cursor: pointer;
+    border: none;
+    padding: 10px;
+}
+
+.output-container{
+    background-color: rgb(158, 158, 158);
+    height: 100%;
+}
