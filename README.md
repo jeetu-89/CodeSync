@@ -68,4 +68,4 @@ Licensed under the [MIT License](LICENSE).
 Feel free to use, modify, and share with attribution.
 
 ## 👨‍💻 Author
-Built with ❤️ by Vedant Dewangan
+Built with ❤️ by Jitendra Dewangan
